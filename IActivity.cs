@@ -1,8 +1,12 @@
-﻿namespace WorkflowEngine
+﻿using System.Diagnostics;
+using static WorkflowEngine.Program;
+
+namespace WorkflowEngine
 {
     public interface IActivity
     {
-        public void Execute();
+
+        public ActivityResult Execute(); 
         
     }
 

@@ -2,9 +2,10 @@
 {
     public class SendEmail : IActivity
     {
-        public void Execute()
+        public ActivityResult Execute()
         {
-            Console.WriteLine("Sending Email");
+            Console.WriteLine("Sending Email...");
+            return ActivityResult.Success("Email sent successfully");
         }
     }
 

@@ -2,9 +2,10 @@
 {
     public class UploadVideo : IActivity
     {
-        public void Execute()
+        public ActivityResult Execute()
         {
-            Console.WriteLine("Video Uploading");
+            Console.WriteLine("Video Uploading...");
+            return ActivityResult.Success("Video uploaded successfully");
         }
     }
 
