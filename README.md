@@ -1,6 +1,4 @@
-<<<<<<< HEAD
-Workflow Engine (C#)
-Overview
+# HEAD Workflow Engine (C#) Overview
 
 This project is a simple, extensible workflow engine built in C#.
 It executes a sequence of activities in order, stops on failure, and reports progress through logging and notifications.
